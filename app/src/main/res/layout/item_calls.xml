@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/floral_white"
+    android:layout_margin="10dp"
+    android:weightSum="10"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_person_24"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1">
+
+    </Button>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/call_name"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textColor="@color/steel_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/call_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textSize="16sp"
+            android:textColor="@color/steel_blue"/>
+
+        <TextView
+            android:id="@+id/call_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="16sp"
+            android:textColor="@color/steel_blue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
